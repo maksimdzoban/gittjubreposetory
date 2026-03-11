@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[dependencies.icespread]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.icespread]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mods]]
+    modId="icespread"
+    version="1.0.0"
+    displayName="Ice Spread Mod"
+    description='''
+Все навколо гравця поступово вкривається звичайним льодом,
+а з часом лід перетворюється на пресований!
+'''
+    authors="YourName"
